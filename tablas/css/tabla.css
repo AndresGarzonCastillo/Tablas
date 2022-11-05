@@ -1,0 +1,6 @@
+table, tbody, thead, th, tr, td {
+    border: 1px solid blue; border-collapse: collapse; width: 50%; padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: aquamarine;
+}

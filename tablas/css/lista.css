@@ -1,0 +1,15 @@
+li {
+    background-color:aqua; float: left; padding: 10px; text-decoration:underline; border: solid white 1px; padding-left:271px; padding-right: 271px; width: 33.3%;
+}
+
+ul {
+    list-style-type: none; padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 200px){
+    .navegador {
+        flex-direction:column; flex-basis: 100%;
+    }
+}
